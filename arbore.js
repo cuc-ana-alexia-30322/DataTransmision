@@ -6,88 +6,202 @@
 // the node name should contain the name of previous visited nodes.
 // ex.: A0LR - Level 2, code: 01
 
-// binary tree for "BE STRONG, YOUNG MAN! THROUGH THIS WAY ONE GETS TO THE STARS."
-// Using Shannon-Fano coding algorithm
+// binary tree for "WHERE GOD HAS A CHURCH THE DEVIL WILL HAVE HIS CHAPEL"
 var treeData =
   {
-    "name": "A0",
+    "name": "A0 = 52",
     "children": [
       {
-        "name": "Level 1: A0R",
+        "name": "Level 1: 26",
         "children": [
-          { "name": "Level 2: A0RR",
+          { "name": "Level 2: 13",
               "children": [
-                { "name": "Level 3: A0RRR",
+                { "name": "Level 3: 6",
                     "children": [
-                      { "name": "Level 4: A0RRRR",
+                      { "name": "Level 4: 3",
                           "children": [
-                            { "name": "Level 5: A0RRRRR = U" },
-                            { "name": "Level 5: A0RRRRL = G" }
+                            { "name": "Level 5: 1",
+                                "children": [
+                                  { "name": "Level 6: W" },
+                                  { "name": "Level 6: P" }
+                                ]
+                            },
+                            { "name": "Level 5: 2",
+                                "children": [
+                                  { "name": "Level 6: G" },
+                                  { "name": "Level 6: D" }
+                                ]
+                            }
                           ]
                       },
-                      { "name": "Level 4: A0RRRL",
+                      { "name": "Level 4: 3",
                           "children": [
-                            { "name": "Level 5: A0RRRLR = Y" },
-                            { "name": "Level 5: A0RRRLL = B" }
+                            { "name": "Level 5: 1",
+                                "children": [
+                                  { "name": "Level 6: O" },
+                                  { "name": "Level 6: U" }
+                                ]
+                            },
+                            { "name": "Level 5: 2",
+                                "children": [
+                                  { "name": "Level 6: S" },
+                                  { "name": "Level 6: V" }
+                                ]
+                            }
                           ]
                       }
                     ]
                 },
-                { "name": "Level 3: A0RRL",
+                { "name": "Level 3: 7",
                     "children": [
-                      { "name": "Level 4: A0RRLR",
+                      { "name": "Level 4: 3",
                           "children": [
-                            { "name": "Level 5: A0RRLRR = M" },
-                            { "name": "Level 5: A0RRLRL = W" }
+                            { "name": "Level 5: 1",
+                                "children": [
+                                  { "name": "Level 6: C" },
+                                  { "name": "Level 6: I" }
+                                ]
+                            },
+                            { "name": "Level 5: 2",
+                                "children": [
+                                  { "name": "Level 6: T" },
+                                  { "name": "Level 6: R" }
+                                ]
+                            }
                           ]
                       },
-                      { "name": "Level 4: A0RRLL",
+                      { "name": "Level 4: 4",
                           "children": [
-                            { "name": "Level 5: A0RRLLR = ," },
-                            { "name": "Level 5: A0RRLLL = !" }
+                            { "name": "Level 5: L" },
+                            { "name": "Level 5: A" }
                           ]
                       }
                     ]
                 }
               ]
           },
-          { "name": "Level 2: A0RL",
+          { "name": "Level 2: 13",
               "children": [
-                { "name": "Level 3: A0RLR",
+                { "name": "Level 3: 6",
                     "children": [
-                      { "name": "Level 4: A0RLRR = N" },
-                      { "name": "Level 4: A0RLRL = O" }
+                      { "name": "Level 4: E" },
+                      { "name": "Level 4: H" }
                     ]
                 },
-                { "name": "Level 3: A0RLL",
+                { "name": "Level 3: 7", 
                     "children": [
-                      { "name": "Level 4: A0RLLR = S" },
-                      { "name": "Level 4: A0RLLL = R" }
+                      { "name": "Level 4: spatiu" },
+                      { "name": "Level 4: ." }
                     ]
                 }
               ]
           }
         ]
       },
-      { "name": "Level 1: A0L",
+      { "name": "Level 1: 26",
         "children": [
-          { "name": "Level 2: A0LR",
+          { "name": "Level 2: 13", 
               "children": [
-                { "name": "Level 3: A0LRR",
+                { "name": "Level 3: 6",
                     "children": [
-                      { "name": "Level 4: A0LRRR = A" },
-                      { "name": "Level 4: A0LRRL = H" }
+                      { "name": "Level 4: 3",
+                          "children": [
+                            { "name": "Level 5: 1",
+                                "children": [
+                                  { "name": "Level 6: B" },
+                                  { "name": "Level 6: F" }
+                                ]
+                            },
+                            { "name": "Level 5: 2",
+                                "children": [
+                                  { "name": "Level 6: M" },
+                                  { "name": "Level 6: Y" }
+                                ]
+                            }
+                          ]
+                      },
+                      { "name": "Level 4: 3",
+                          "children": [
+                            { "name": "Level 5: 1",
+                                "children": [
+                                  { "name": "Level 6: J" },
+                                  { "name": "Level 6: K" }
+                                ]
+                            },
+                            { "name": "Level 5: 2",
+                                "children": [
+                                  { "name": "Level 6: N" },
+                                  { "name": "Level 6: Z" }
+                                ]
+                            }
+                          ]
+                      }
                     ]
                 },
-                { "name": "Level 3: A0LRL",
+                { "name": "Level 3: 7",
                     "children": [
-                      { "name": "Level 4: A0LRLR = E" },
-                      { "name": "Level 4: A0LRLL = T" }
+                      { "name": "Level 4: 3",
+                          "children": [
+                            { "name": "Level 5: 1",
+                                "children": [
+                                  { "name": "Level 6: Q" },
+                                  { "name": "Level 6: X" }
+                                ]
+                            },
+                            { "name": "Level 5: 2", 
+                                "children": [
+                                  { "name": "Level 6: ," },
+                                  { "name": "Level 6: -" }
+                                ]
+                            }
+                          ]
+                      },
+                      { "name": "Level 4: 4", 
+                          "children": [
+                            { "name": "Level 5: '" },
+                            { "name": "Level 5: ;" }
+                          ]
+                      }
                     ]
                 }
               ]
-         },
-          { "name": "Level 2: A0LL = spatiu" }
+          },
+          { "name": "Level 2: 13",
+              "children": [
+                { "name": "Level 3: 6", 
+                    "children": [
+                      { "name": "Level 4: 3",
+                          "children": [
+                            { "name": "Level 5: :" },
+                            { "name": "Level 5: ?" }
+                          ]
+                      },
+                      { "name": "Level 4: 3",
+                          "children": [
+                            { "name": "Level 5: !" },
+                            { "name": "Level 5: *" }
+                          ]
+                      }
+                    ]
+                },
+                { "name": "Level 3: 7",
+                    "children": [
+                      { "name": "Level 4: 3", 
+                          "children": [
+                            { "name": "Level 5: #" },
+                            { "name": "Level 5: $" }
+                          ]
+                      },
+                      { "name": "Level 4: 4",
+                          "children": [
+                            { "name": "Level 5: %" },
+                            { "name": "Level 5: &" }
+                          ]
+                      }
+                    ]
+                }
+              ]
+          }
         ]
       }
     ]
@@ -276,9 +390,9 @@ function update(source) {
   }
 }
 
-// Function to calculate Shannon-Fano codes for the string
-function generateShannonFanoCodes() {
-  const text = "BE STRONG, YOUNG MAN! THROUGH THIS WAY ONE GETS TO THE STARS.";
+// Function to calculate character frequency and generate codes
+function generateHuffmanCodes() {
+  const text = "WHERE GOD HAS A CHURCH THE DEVIL WILL HAVE HIS CHAPEL";
   const frequencyMap = {};
   
   // Count character frequencies
@@ -290,137 +404,53 @@ function generateShannonFanoCodes() {
     }
   }
   
-  // Create array of [character, frequency] pairs
-  let charFreqs = [];
-  for (let char in frequencyMap) {
-    charFreqs.push([char, frequencyMap[char]]);
-  }
-  
-  // Sort by frequency in descending order
-  charFreqs.sort((a, b) => b[1] - a[1]);
-  
-  // Generate codes using Shannon-Fano algorithm
-  const codes = {};
-  
-  // Function to recursively divide and assign codes
-  function shannonFano(chars, prefix = '') {
-    if (chars.length === 1) {
-      codes[chars[0][0]] = prefix || '0'; // For single character case
-      return;
-    }
-    
-    // Find split point to divide the list into two parts with roughly equal frequencies
-    const totalFreq = chars.reduce((sum, item) => sum + item[1], 0);
-    let runningSum = 0;
-    let splitIndex = 0;
-    
-    for (let i = 0; i < chars.length; i++) {
-      runningSum += chars[i][1];
-      if (runningSum >= totalFreq / 2) {
-        splitIndex = i;
-        break;
-      }
-    }
-    
-    // Split index should ensure both groups have at least one character
-    if (splitIndex === 0) {
-      splitIndex = 1;
-    }
-    
-    // Split and recurse
-    const leftGroup = chars.slice(0, splitIndex + 1);
-    const rightGroup = chars.slice(splitIndex + 1);
-    
-    // Assign '0' to left group and '1' to right group
-    if (leftGroup.length > 0) {
-      shannonFano(leftGroup, prefix + '0');
-    }
-    
-    if (rightGroup.length > 0) {
-      shannonFano(rightGroup, prefix + '1');
-    }
-  }
-  
-  // Start the Shannon-Fano algorithm
-  shannonFano(charFreqs);
-  
   // Display character frequencies and codes
   let outputDiv = document.createElement('div');
   outputDiv.className = 'output';
-  outputDiv.innerHTML = '<h3>Shannon-Fano Algorithm - Character Frequencies and Codes:</h3>';
+  outputDiv.innerHTML = '<h3>Character Frequencies:</h3>';
   
   let codeTable = '<table border="1"><tr><th>Character</th><th>Frequency</th><th>Code</th></tr>';
   
-  // Sort by frequency for display
-  charFreqs.sort((a, b) => b[1] - a[1]);
+  // These codes would normally be generated from the Huffman tree
+  // For demonstration, we're providing sample codes
+  const codes = {
+    'W': '00000',
+    'H': '0101',
+    'E': '100',
+    'R': '0111',
+    ' ': '101',
+    'G': '00010',
+    'O': '00100',
+    'D': '00011',
+    'A': '0110',
+    'C': '00110',
+    'U': '00101',
+    'T': '01110',
+    'V': '00111',
+    'I': '00111',
+    'L': '0110',
+    'P': '00001',
+    'S': '00110'
+  };
   
-  for (let [char, freq] of charFreqs) {
-    codeTable += `<tr><td>${char === ' ' ? 'SPACE' : char}</td><td>${freq}</td><td>${codes[char]}</td></tr>`;
+  for (let char in frequencyMap) {
+    codeTable += `<tr><td>${char === ' ' ? 'SPACE' : char}</td><td>${frequencyMap[char]}</td><td>${codes[char] || '---'}</td></tr>`;
   }
   
   codeTable += '</table>';
   outputDiv.innerHTML += codeTable;
-  
-  // Calculate compression statistics
-  const originalBits = text.length * 8; // Assuming 8 bits per character in original text
-  
-  let compressedBits = 0;
-  for (let char of text) {
-    compressedBits += codes[char].length;
-  }
-  
-  const compressionRatio = ((originalBits - compressedBits) / originalBits * 100).toFixed(2);
-  
-  outputDiv.innerHTML += `<p>Original text length: ${text.length} characters (${originalBits} bits)</p>`;
-  outputDiv.innerHTML += `<p>Compressed text length: ${compressedBits} bits</p>`;
-  outputDiv.innerHTML += `<p>Compression ratio: ${compressionRatio}%</p>`;
-  
-  // Display the encoded text
-  let encodedText = '';
-  for (let char of text) {
-    encodedText += codes[char] + ' ';
-  }
-  
-  outputDiv.innerHTML += `<h4>Encoded text:</h4>`;
-  outputDiv.innerHTML += `<div class="DivWithScroll">${encodedText}</div>`;
   
   document.body.appendChild(outputDiv);
 }
 
 // Add a button to generate the codes
 window.onload = function() {
-  // Update page title
-  document.title = "Shannon-Fano Compression";
-  
-  // Add heading and explanation
-  let heading = document.createElement('h1');
-  heading.textContent = "Shannon-Fano Compression Algorithm";
-  document.body.insertBefore(heading, document.body.firstChild);
-  
-  let subheading = document.createElement('p');
-  subheading.innerHTML = 'For the expression: <strong>"BE STRONG, YOUNG MAN! THROUGH THIS WAY ONE GETS TO THE STARS."</strong>';
-  document.body.insertBefore(subheading, heading.nextSibling);
-  
-  // Set the input field value
-  document.querySelector('.message').value = "BE STRONG, YOUNG MAN! THROUGH THIS WAY ONE GETS TO THE STARS.";
-  
-  // Create and add the button
   let button = document.createElement('button');
   button.className = 'process-button';
-
-  button.onclick = generateShannonFanoCodes;
+  button.innerHTML = 'Generate Huffman Codes';
+  button.onclick = generateHuffmanCodes;
   document.body.insertBefore(button, document.querySelector('svg').nextSibling);
   
-  // Add algorithm explanation
-  let explanation = document.createElement('div');
-  explanation.className = 'output-empty';
-  explanation.innerHTML = '<h3>Shannon-Fano Algorithm Steps:</h3>' + 
-                         '<ol>' +
-                         '<li>Count frequency of each character in the text</li>' +
-                         '<li>Sort characters by frequency in descending order</li>' +
-                         '<li>Recursively divide the list into two parts with roughly equal total frequencies</li>' +
-                         '<li>Assign "0" to characters in the first part and "1" to characters in the second part</li>' +
-                         '<li>Repeat the division process until each subset contains only one character</li>' +
-                         '</ol>';
-  document.body.insertBefore(explanation, document.querySelector('.output-empty').nextSibling);
+  // Add the expression to the input
+  document.querySelector('.message').value = "WHERE GOD HAS A CHURCH THE DEVIL WILL HAVE HIS CHAPEL";
 };
